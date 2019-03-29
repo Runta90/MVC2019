@@ -146,6 +146,7 @@
     <Compile Include="Controllers\KontekstController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
+    <Compile Include="Controllers\SimpleBindController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,6 +193,7 @@
     <Content Include="Views\Prvi\DrugaMetodaSParametrima.cshtml" />
     <Content Include="Views\Home1\Index.cshtml" />
     <Content Include="Views\Kontekst\Index.cshtml" />
+    <Content Include="Views\SimpleBind\SimpleBindMetoda.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
