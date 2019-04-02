@@ -144,6 +144,7 @@
     <Compile Include="Controllers\Home1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KontekstController.cs" />
+    <Compile Include="Controllers\LayoutSectionController.cs" />
     <Compile Include="Controllers\OsobeController.cs" />
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
@@ -157,6 +158,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\slike\algebra.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -197,6 +199,9 @@
     <Content Include="Views\Kontekst\Index.cshtml" />
     <Content Include="Views\SimpleBind\SimpleBindMetoda.cshtml" />
     <Content Include="Views\Osobe\PopuniOsobu.cshtml" />
+    <Content Include="Views\Shared\_LayoutPage.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica1.cshtml" />
+    <Content Include="Views\LayoutSection\Stranica2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
