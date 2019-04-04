@@ -149,10 +149,13 @@
     <Compile Include="Controllers\PozdravSvijeteController.cs" />
     <Compile Include="Controllers\PrviController.cs" />
     <Compile Include="Controllers\SimpleBindController.cs" />
+    <Compile Include="Controllers\TemplHtmlHelperiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Adresa.cs" />
     <Compile Include="Models\Osoba.cs" />
+    <Compile Include="Models\OsobaTemp1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +205,8 @@
     <Content Include="Views\Shared\_LayoutPage.cshtml" />
     <Content Include="Views\LayoutSection\Stranica1.cshtml" />
     <Content Include="Views\LayoutSection\Stranica2.cshtml" />
+    <Content Include="Views\TemplHtmlHelperi\HtmlEditorView.cshtml" />
+    <Content Include="Views\TemplHtmlHelperi\HtmlLabelDisplay.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
