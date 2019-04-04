@@ -20,5 +20,16 @@ namespace HelloWorld.Controllers
         {
             return View("HtmlLabelDisplay", osoba);
         }
+
+        public ViewResult EditorModelView()
+        {
+            return View(new OsobaTemp1());
+        }
+
+        [HttpPost]
+        public ViewResult EditorModelView(OsobaTemp1 osoba)
+        {
+            return View("HtmlLabelDisplay", osoba);
+        }
     }
 }

@@ -207,6 +207,7 @@
     <Content Include="Views\LayoutSection\Stranica2.cshtml" />
     <Content Include="Views\TemplHtmlHelperi\HtmlEditorView.cshtml" />
     <Content Include="Views\TemplHtmlHelperi\HtmlLabelDisplay.cshtml" />
+    <Content Include="Views\TemplHtmlHelperi\EditorModelView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
