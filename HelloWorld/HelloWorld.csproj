@@ -151,6 +151,7 @@
     <Compile Include="Controllers\PrviController.cs" />
     <Compile Include="Controllers\SimpleBindController.cs" />
     <Compile Include="Controllers\TemplHtmlHelperiController.cs" />
+    <Compile Include="Controllers\ValidacijeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -158,6 +159,7 @@
     <Compile Include="Models\Osoba.cs" />
     <Compile Include="Models\OsobaMeta.cs" />
     <Compile Include="Models\OsobaTemp1.cs" />
+    <Compile Include="Models\Racun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,6 +213,8 @@
     <Content Include="Views\TemplHtmlHelperi\HtmlLabelDisplay.cshtml" />
     <Content Include="Views\TemplHtmlHelperi\EditorModelView.cshtml" />
     <Content Include="Views\MetaDataHtmlHelperi\MetaDataView.cshtml" />
+    <Content Include="Views\Validacije\IzdavanjeRacuna.cshtml" />
+    <Content Include="Views\Validacije\RacunIzdan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
