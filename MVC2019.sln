@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsPrimjer", "WebForms
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{3B14EDB1-9464-4049-A077-3A7D23CA83F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu", "Adonet_spajanje_na_bazu\Adonet_spajanje_na_bazu.csproj", "{2F034CC9-9833-46DC-992C-9BD0E2479904}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3B14EDB1-9464-4049-A077-3A7D23CA83F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B14EDB1-9464-4049-A077-3A7D23CA83F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B14EDB1-9464-4049-A077-3A7D23CA83F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
