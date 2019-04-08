@@ -103,6 +103,7 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Views\SqlConnectionObjekt\Index.cshtml" />
+    <Content Include="Views\SqlConnectionObjekt\SpojPrekoWebKonfiga.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
