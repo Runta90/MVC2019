@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu", "Adonet_spajanje_na_bazu\Adonet_spajanje_na_bazu.csproj", "{2F034CC9-9833-46DC-992C-9BD0E2479904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Komponente", "ADO_NET_Komponente\ADO_NET_Komponente.csproj", "{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F034CC9-9833-46DC-992C-9BD0E2479904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
