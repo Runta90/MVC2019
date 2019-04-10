@@ -12,8 +12,8 @@ namespace ADO_NET_Komponente.Controllers
 {
     public class ADONETKomponenteController : Controller
     {
-        public static string connStr =
-            ConfigurationManager.ConnectionStrings["dbAlgebraConnStrSQL"].ConnectionString;
+         public static string connStr =
+            ConfigurationManager.ConnectionStrings["dbAlgebraConnStr"].ConnectionString;
         // GET: ADOKomponente
         public ActionResult List()
         {
