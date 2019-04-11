@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adonet_spajanje_na_bazu", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Komponente", "ADO_NET_Komponente\ADO_NET_Komponente.csproj", "{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adresar", "Adresar\Adresar.csproj", "{DFBEFDC7-E6EA-4921-9CF4-C6797D65203D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B19E9CCC-33CB-4568-B6BB-53E67B12A9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBEFDC7-E6EA-4921-9CF4-C6797D65203D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBEFDC7-E6EA-4921-9CF4-C6797D65203D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBEFDC7-E6EA-4921-9CF4-C6797D65203D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBEFDC7-E6EA-4921-9CF4-C6797D65203D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
