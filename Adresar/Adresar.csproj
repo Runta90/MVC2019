@@ -261,6 +261,10 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Kontakt\Index.cshtml" />
+    <Content Include="Views\Kontakt\Create.cshtml" />
+    <Content Include="Views\Kontakt\Detail.cshtml" />
+    <Content Include="Views\Kontakt\Edit.cshtml" />
+    <Content Include="Views\Kontakt\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
