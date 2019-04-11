@@ -40,9 +40,8 @@ namespace Adresar.Controllers
             return View(kontakt);
         }
 
-        // GET: Kontakt/Detail
-        [HttpGet]
-        public ActionResult Detail(int? id)
+        // GET: Kontakt/Details
+        public ActionResult Details(int? id)
         {
             if (id == null)
             {
