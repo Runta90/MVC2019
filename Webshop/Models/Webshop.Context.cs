@@ -13,9 +13,9 @@ namespace Webshop.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WebshopEntities : DbContext
+    public partial class WebShopEntities : DbContext
     {
-        public WebshopEntities()
+        public WebShopEntities()
             : base("name=WebshopEntities")
         {
         }
