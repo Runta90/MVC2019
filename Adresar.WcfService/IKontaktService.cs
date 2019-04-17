@@ -12,6 +12,6 @@ namespace Adresar.WcfService
     public interface IKontaktService
     {
         [OperationContract]
-        void DoWork();
+        List<Kontakt> DohvatiAktivneKontakte();
     }
 }
