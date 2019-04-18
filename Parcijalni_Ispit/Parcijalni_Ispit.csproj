@@ -188,6 +188,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\sat.jpg" />
+    <Content Include="Content\xmas.jpg" />
+    <Content Include="Content\images.jpg" />
+    <Content Include="Content\xmas-white.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

@@ -1,41 +1,54 @@
 ﻿@model IEnumerable<Parcijalni_Ispit.Models.Gift>
+<style>
+    #example1 {
+        background-image: url('../../Content/xmas-white.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat, repeat;
+        padding: 100px;
+    }
+</style>
 
-<h2>All Gifts</h2>
+<div id="example1">
+    <h2>All Gifts</h2>
 
-<p>
-    @Html.ActionLink("Unbought gifts", "Index") |
-    @Html.ActionLink("Add gift", "CreateGift")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Price)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Bought)
-        </th>
-        <th></th>
-    </tr>
+    <p>
+        @Html.ActionLink("Unbought gifts", "Index") |
+        @Html.ActionLink("Add gift", "CreateGift")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bought)
+            </th>
+            <th></th>
+        </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Price)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Bought)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "EditGift", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bought)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditGift", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
 
-</table>
+    </table>
+
+</div>
